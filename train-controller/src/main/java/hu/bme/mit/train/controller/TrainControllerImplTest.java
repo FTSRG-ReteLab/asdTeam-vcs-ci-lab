@@ -10,7 +10,7 @@ public class TrainControllerImplTest {
 	@Test
 	public void testSpeedLimit() {
 
-	asserEquals(0,TestImpl.getReferenceSpeed());
+	assertEquals(0,TestImpl.getReferenceSpeed());
 	}
 
 }
