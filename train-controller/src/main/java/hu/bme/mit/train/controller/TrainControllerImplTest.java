@@ -12,9 +12,11 @@ import hu.bme.mit.train.interfaces.TrainController;
 
 
 public class TrainControllerImplTest {
-
+@Before
+	public void before() {
 	TrainControllerImpl TestImpl  = new TrainControllerImpl();
 
+}
 	@Test
 	public void testSpeedLimit() {
 
