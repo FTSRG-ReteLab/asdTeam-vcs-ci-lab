@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Train Speed Controller our new text
+=======
+# Train Speed Controller our new text in an other way
+>>>>>>> branch-b
 
 This is a sample application for the verification laboratory.
 
