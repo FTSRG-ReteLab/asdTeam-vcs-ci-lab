@@ -9,6 +9,7 @@ import hu.bme.mit.train.interfaces.TrainSensor;
 import hu.bme.mit.train.interfaces.TrainUser;
 import hu.bme.mit.train.system.TrainSystem;
 import hu.bme.mit.train.interfaces.TrainController;
+import static org.mockito.Mockito.*;
 
 
 public class TrainControllerImplTest {
