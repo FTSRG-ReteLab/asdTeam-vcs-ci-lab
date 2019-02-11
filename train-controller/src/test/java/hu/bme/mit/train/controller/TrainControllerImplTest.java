@@ -11,7 +11,7 @@ import hu.bme.mit.train.interfaces.TrainController;
 import static org.mockito.Mockito.*;
 
 
-private class TrainControllerImplTest {
+public class TrainControllerImplTest {
 @Before
 	public void before() {
 	TrainControllerImpl TestImpl  = new TrainControllerImpl();
