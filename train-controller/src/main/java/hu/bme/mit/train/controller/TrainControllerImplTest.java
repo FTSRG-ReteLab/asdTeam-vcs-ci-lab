@@ -1,6 +1,13 @@
 package hu.bme.mit.train.controller;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import hu.bme.mit.train.interfaces.TrainController;
+import hu.bme.mit.train.interfaces.TrainSensor;
+import hu.bme.mit.train.interfaces.TrainUser;
+import hu.bme.mit.train.system.TrainSystem;
 import hu.bme.mit.train.interfaces.TrainController;
 
 
@@ -11,7 +18,7 @@ public class TrainControllerImplTest {
 	@Test
 	public void testSpeedLimit() {
 
-	assertEquals(0,TestImpl.getReferenceSpeed());
+	Assert.assertEquals(0,TestImpl.getReferenceSpeed());
 	}
 
 }
