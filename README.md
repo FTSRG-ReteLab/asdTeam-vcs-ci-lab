@@ -1,4 +1,4 @@
-# Train Speed Controller
+# Train Speed Controller our new text in an other way
 
 This is a sample application for the verification laboratory.
 
