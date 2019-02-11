@@ -1,5 +1,7 @@
 package hu.bme.mit.train.controller;
 
+import hu.bme.mit.train.interfaces.TrainController;
+
 
 public class TrainControllerImplTest {
 
@@ -8,7 +10,7 @@ public class TrainControllerImplTest {
 	@Test
 	public void testSpeedLimit() {
 
-	asserEquals(0,TestImpl.step);
+	asserEquals(0,TestImpl.getReferenceSpeed());
 	}
 
 }
