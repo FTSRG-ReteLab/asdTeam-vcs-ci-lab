@@ -1,5 +1,6 @@
 package hu.bme.mit.train.controller;
 
+import org.junit.jupiter.api.Test;
 import hu.bme.mit.train.interfaces.TrainController;
 
 
